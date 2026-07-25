@@ -1,9 +1,4 @@
-<?php require_once 'includes/header.php'; ?>
+<?php
 
-<?php require_once 'includes/navbar.php'; ?>
-
-<h1>Bienvenido a StockFlow</h1>
-
-<p>Sistema de Gestión y Rotación de Inventarios</p>
-
-<?php require_once 'includes/footer.php'; ?>
+require_once 'config/app.php';
+require_once ROOT_PATH . 'includes/layouts/app.php';
